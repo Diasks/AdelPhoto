@@ -1,20 +1,20 @@
 <template>
   <div id="app">
     <my-header></my-header>
-    <my-firstpage></my-firstpage>
+      <router-view></router-view>
     <my-footer></my-footer>
+  
   </div>
 </template>
 
 <script>
 import Header from './components/Header';
-import Firstpage from './components/Firstpage';
 import Footer from './components/Footer';
+
 export default {
   name: 'app',
   components: {
     'my-header': Header,
-    'my-firstpage': Firstpage,
     'my-footer': Footer
   },
   data() {

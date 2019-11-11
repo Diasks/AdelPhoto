@@ -2,19 +2,17 @@
     <div class="somethingFancy">
         <b-container fluid>
             <div>
+            <h1>KONTAKT</h1>
             </div>
         </b-container>
     </div>
 </template>
 
 <script>
+export default {
+    name: 'Contact'
+}
 </script>
 
 <style>
-.somethingFancy {
-    background-image: url('../assets/kapsel.jpg');
-    max-width: 100%; 
-    height: 520px;
-    background-size: cover;
-}
 </style>
