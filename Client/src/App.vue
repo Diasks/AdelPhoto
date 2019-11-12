@@ -3,7 +3,6 @@
     <my-header></my-header>
       <router-view></router-view>
     <my-footer></my-footer>
-  
   </div>
 </template>
 
@@ -33,8 +32,13 @@ export default {
 
 body {
   max-width: 100%; 
-  height: 400px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  background-image: url('./assets/kapsel.jpg');
+  height: 520px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 </style>

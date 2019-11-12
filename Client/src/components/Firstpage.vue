@@ -1,20 +1,14 @@
 <template>
-    <div class="somethingFancy">
-        <b-container fluid>
-            <div>
-            </div>
-        </b-container>
-    </div>
+  <div class="somethingFancy">
+    <b-container fluid>
+      <div>
+      </div>
+    </b-container>
+  </div>
 </template>
 
 <script>
 </script>
 
 <style>
-.somethingFancy {
-    background-image: url('../assets/kapsel.jpg');
-    max-width: 100%; 
-    height: 520px;
-    background-size: cover;
-}
 </style>

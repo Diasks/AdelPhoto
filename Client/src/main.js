@@ -8,7 +8,13 @@ import Firstpage from './components/Firstpage';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faFacebookSquare, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+library.add(faFacebookSquare, faInstagram, faLinkedin)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(VueRouter);
 Vue.use(BootstrapVue);
