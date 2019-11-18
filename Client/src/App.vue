@@ -36,9 +36,7 @@ body {
   line-height: 1.4;
   background-image: url('./assets/kapsel.jpg');
   height: 520px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  background-size: 100% 130%;
+  background-repeat: no-repeat;
 }
 </style>
