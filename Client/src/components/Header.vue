@@ -28,6 +28,7 @@
     margin-right: 30px;
     border: 1px solid pink;
   }
+
   .styledText {
     text-shadow: 2px 1px 2px #424239, 0 0 2em black, 0 0 0.5em black;
     margin: 5px;
@@ -35,6 +36,7 @@
     font-size: 14px;
        font-family: 'Montserrat', sans-serif; 
   }
+  
    .styledText:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }

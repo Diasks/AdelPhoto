@@ -48,9 +48,11 @@ export default {
   width: 250px;
   transition: transform .2s; /* Animation */
 }
+
 .backgroundImgOne:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
 .backgroundImgTwo {
   font-family: 'Montserrat';
   background-image: url('../assets/city.jpg');

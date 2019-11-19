@@ -24,13 +24,16 @@ export default {
 .styledTitle {
   font-family: 'Montserrat';
 }
+
 .jumboTrans {
   background-color: transparent;
   padding: 10px;
 }
+
 .paragraphSize {
   width: 30%;
 }
+
 .styledParagraph {
   font-family: 'Montserrat';
   font-style: italic;
