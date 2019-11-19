@@ -1,9 +1,5 @@
 <template>
-  <div class="somethingFancy">
-    <b-container fluid>
-      <div>
-      </div>
-    </b-container>
+  <div>
   </div>
 </template>
 
